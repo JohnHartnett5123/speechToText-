@@ -2,9 +2,7 @@ import React from 'react'
 import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition'
 import ReactDOMServer from 'react-dom/server';
 
-// const [typeArg, KeyboardEventInit]
 
-// const event = new KeyboardEvent(typeArg, KeyboardEventInit);
 
 
 
@@ -20,9 +18,7 @@ const Dictaphone = () => {
     return null
   }
 
-  // if (!SpeechRecognition.startListening()){
-  //   console.log("stopped listening")
-  // }
+  
 
   return (
     <div>
